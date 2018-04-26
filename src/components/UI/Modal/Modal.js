@@ -15,7 +15,7 @@ const modal = (props) => (
             <span className={classes.Close} onClick={props.modalClosed}>X</span>
             {props.children}
         </div>
-        <Backdrop show={props.show} modalClosed={props.modalClosed} />
+        <Backdrop show={props.show} closed={props.modalClosed} />
     </Fragment>
 )
 
